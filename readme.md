@@ -28,13 +28,13 @@ valuation accuracy.
 
 ## 📂 Repository Structure
 .
-├── data_fetcher.ipynb              # Fetches satellite / external data
-├── preprocessing.ipynb             # Data cleaning & feature engineering
-├── baselinemodel (only tabular data).ipynb  # Baseline regression model
-├── final_model.ipynb               # Final model with enhanced features
-├── train.csv                       # Training dataset (public, small)
-├── test.csv                        # Test dataset (public, small)
-├── requirements.txt                # Project dependencies
+├── data_fetcher.ipynb              # Fetches satellite / external data  
+├── preprocessing.ipynb             # Data cleaning & feature engineering  
+├── baselinemodel (only tabular data).ipynb  # Baseline regression model  
+├── final_model.ipynb               # Final model with enhanced features  
+├── train.csv                       # Training dataset (public, small)  
+├── test.csv                        # Test dataset (public, small)  
+├── requirements.txt                # Project dependencies  
 └── README.md
 
 
