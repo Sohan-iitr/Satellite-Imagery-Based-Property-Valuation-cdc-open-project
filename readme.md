@@ -27,14 +27,16 @@ valuation accuracy.
 ---
 
 ## 📂 Repository Structure
-├── baselinemodel (only tabular data).ipynb
-├── final_model.ipynb
-├── preprocessing.ipynb
-├── data_fetcher.ipynb
-├── train.csv
-├── test.csv
-├── requirements.txt
+.
+├── data_fetcher.ipynb              # Fetches satellite / external data
+├── preprocessing.ipynb             # Data cleaning & feature engineering
+├── baselinemodel (only tabular data).ipynb  # Baseline regression model
+├── final_model.ipynb               # Final model with enhanced features
+├── train.csv                       # Training dataset (public, small)
+├── test.csv                        # Test dataset (public, small)
+├── requirements.txt                # Project dependencies
 └── README.md
+
 
 ## 🚀 How to Run
 
@@ -43,9 +45,11 @@ valuation accuracy.
 git clone https://github.com/Sohan-iitr/Satellite-Imagery-Based-Property-Valuation-cdc-open-project.git
 cd Satellite-Imagery-Based-Property-Valuation-cdc-open-project
 ### 2️⃣ Install dependencies
+```bash
 pip install -r requirements.txt
 
 ### 3️⃣ Launch Jupyter Notebook
+```bash
 jupyter notebook
 
 👤 Author
