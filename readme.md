@@ -44,13 +44,15 @@ valuation accuracy.
 ```bash
 git clone https://github.com/Sohan-iitr/Satellite-Imagery-Based-Property-Valuation-cdc-open-project.git
 cd Satellite-Imagery-Based-Property-Valuation-cdc-open-project
+```
 ### 2️⃣ Install dependencies
 ```bash
 pip install -r requirements.txt
-
+```
 ### 3️⃣ Launch Jupyter Notebook
 ```bash
 jupyter notebook
+```
 
 👤 Author
 Sohan Awate
